@@ -260,7 +260,7 @@ $$
 
 ### 快速排序
 
-![1561455494968](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets\1561455494968.png)
+![1561455494968](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561455494968.png)
 
 最好：$C(b) = 2C(b/2)+\Theta(n)$ 复杂度:$O(n logn)$
 
@@ -300,7 +300,7 @@ $$
 ### 深度优先遍历
 
 * 使用栈存储访问过的结点，弹出时说明它已成为死胡同
-* ![1561463979417](assets\1561463979417.png)
+* ![1561463979417](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561463979417.png)
 
 ### 回溯法
 
@@ -322,13 +322,13 @@ $$
 * 子集树（背包问题$O(2^n)$）
 * 排列树（TSP问题$O(n!)$）
 
-![1561465151193](assets\1561465151193.png)
+![1561465151193](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561465151193.png)
 
 ### 广度优先遍历
 
 * 使用先进先出队列存储访问的结点，访问时，对应结点出队列，并且把它的相邻结点加入到队列中
 
-![1561465406839](assets\1561465406839.png)
+![1561465406839](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561465406839.png)
 
 ### 分支界限法
 
@@ -342,7 +342,7 @@ $$
 * 两种常见方法：
   * 队列式（FIFO）
   * 优先队列（代价最小或效益最大）分支界限法：可以采用**堆**
-* ![1561466216835](assets\1561466216835.png)
+* ![1561466216835](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561466216835.png)
 
 ### 拓扑排序
 
@@ -368,7 +368,7 @@ $$
 
 ### 预排序
 
-![1561467323125](assets\1561467323125.png)
+![1561467323125](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561467323125.png)
 
 在搜索，计算中间值，检查元素唯一性前可以对元素进行预排序，可以将时间复杂度由$O(n^2)$降低至$O(nlogn)$
 
@@ -382,13 +382,13 @@ $$
 
 ### 堆和堆排序
 
-![1561468156316](assets\1561468156316.png)
+![1561468156316](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561468156316.png)
 
-![1561468256154](assets\1561468256154.png)
+![1561468256154](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561468256154.png)
 
 提示：最大堆和大的比，最小堆和小的比
 
-![1561468433037](assets\1561468433037.png)
+![1561468433037](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561468433037.png)
 
 根删除法
 
@@ -396,7 +396,7 @@ $$
 
 多项式乘法更改为嵌套相乘
 
-![1561468764321](assets\1561468764321.png)
+![1561468764321](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561468764321.png)
 
 乘法n次加法n次
 
@@ -445,7 +445,7 @@ C(n,0)=C(n,n)=1\\
 C(n,k)=C(n-1,k-1)+C(n-1,k)
 $$
 
-![1561470728350](assets\1561470728350.png)
+![1561470728350](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561470728350.png)
 $$
 A(n,k)=k(k-1)/2+n（n-k）\in \Theta(nk)
 $$
@@ -456,15 +456,15 @@ $$
 
 所以给矩阵连乘中间加入括号，使得代价变小
 
-![1561474087774](assets\1561474087774.png)
+![1561474087774](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561474087774.png)
 
 
 
 ### 0-1背包问题
 
-![1561472791218](assets\1561472791218.png)
+![1561472791218](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561472791218.png)
 
-![1561472808188](assets\1561472808188.png)
+![1561472808188](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561472808188.png)
 
 ### 多阶段决策问题
 
@@ -486,19 +486,19 @@ $$
 
 ### 多段图问题
 
-![1561474608821](assets\1561474608821.png)
+![1561474608821](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561474608821.png)
 
 复杂度$O(n+e)$
 
-![1561475061879](assets\1561475061879.png)
+![1561475061879](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561475061879.png)
 
 ### Warshall’s算法
 
-![1561475330346](assets\1561475330346.png)
+![1561475330346](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561475330346.png)
 
 ### Floyd’s算法
 
-![1561475852531](assets\1561475852531.png)
+![1561475852531](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561475852531.png)
 
 ## 第九章 贪心算法
 
@@ -529,7 +529,7 @@ $$
 
 ### 活动安排问题
 
-![1561476456186](assets\1561476456186.png)
+![1561476456186](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561476456186.png)
 
 ### 贪心策略求解背包问题
 
@@ -551,15 +551,15 @@ $$
 
 ### Dijekstra算法
 
-![1561477591483](assets\1561477591483.png)
+![1561477591483](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561477591483.png)
 
 ### 最小生成树
 
 #### Prim算法
 
-![1561477702953](assets\1561477702953.png)
+![1561477702953](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561477702953.png)
 
 #### Kruskal算法
 
-![1561477744121](assets\1561477744121.png)
+![1561477744121](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets/1561477744121.png)
 
