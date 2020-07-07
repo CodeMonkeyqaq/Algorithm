@@ -260,7 +260,7 @@ $$
 
 ### 快速排序
 
-![1561455494968](assets\1561455494968.png)
+![1561455494968](https://github.com/CodeMonkeyqaq/Algorithm/blob/master/assets\1561455494968.png)
 
 最好：$C(b) = 2C(b/2)+\Theta(n)$ 复杂度:$O(n logn)$
 
